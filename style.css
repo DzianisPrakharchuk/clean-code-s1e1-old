@@ -4,26 +4,26 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
   }
-.eisenhower-matrix {
+.pict-eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix img {
+.pict-eisenhower-matrix img {
   width: 100%;
 }
-.eisenhower-matrix .more_inf {
+.pict-eisenhower-matrix .more_inf {
   font-family: fantasy, cursive;
 }
   
 @media (max-width:768px) {
   
-.eisenhower-matrix {
+.pict-eisenhower-matrix {
   text-align: center;
 }
 }
-.centered-main-page-element {
+.add-item {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -33,7 +33,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
