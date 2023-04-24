@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.pict-eisenhower-matrix img {
+.eisenhower-matrix__img {
   width: 100%;
 }
 
-.pict-eisenhower-matrix .more-inf {
+.pict-eisenhower-matrix__link {
   font-family: fantasy, cursive;
 }
   
@@ -114,7 +114,7 @@ input[type="text"]:focus {
 }
   
 /* Task list */
-.list {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -123,7 +123,7 @@ input[type="text"]:focus {
   align-items: center;
 }
 
-.list > * {
+.list__item > * {
   vertical-align: middle;
 }
   
@@ -131,24 +131,24 @@ input[type="text"]:focus {
   margin: 0 10px;
 }
 
-.list > .task-info {
+.list__item > .task-info {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list > .task[type="text"] {
+.list__item > .task[type="text"] {
   width: 226px;
 }
 
-.delete-img {
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-img:hover {
+.delete__img:hover {
   transform: rotateZ(0);
 }
   
@@ -159,15 +159,15 @@ input[type="text"]:focus {
 }
   
 /* Edit Task */
-.tasks .list .task[type="text"] {
+.tasks .list__item .task[type="text"] {
   display: none;
 }
   
-.tasks .edit-mode .task[type=text] {
+.tasks .list__item.list__item_edit .task[type=text]{
   display: inline-block;
   width: 224px;
 }
   
-.tasks .edit-mode .task-info {
+.tasks .list__item.list__item_edit .task-info {
   display: none;
 }
